@@ -11,6 +11,7 @@ collections:
   work:
     title: Work
     output: true
+    permalink: "/work/:title/"
     Role:
     - 
     Work:
