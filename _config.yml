@@ -11,9 +11,10 @@ collections:
   work:
     title: Work
     output: true
+    permalink: "/work/:title/"
     Role:
     - 
-    Field name:
+    Work:
     - Image: 
       Background Color: 
 defaults:
