@@ -11,6 +11,11 @@ collections:
   work:
     title: Work
     output: true
+    Role:
+    - 
+    Field name:
+    - Image: 
+      Background Color: 
 defaults:
 - scope:
     path: ''
