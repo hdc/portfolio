@@ -12,11 +12,11 @@ collections:
     title: Work
     output: true
     permalink: "/work/:title/"
-    Role:
+    role:
     - 
-    Examples:
-    - Image: 
-      Background Color: 
+    examples:
+    - image: 
+      background-color: 
 defaults:
 - scope:
     path: ''
