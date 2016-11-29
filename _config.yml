@@ -29,4 +29,15 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: work
+    permalink: "/work/:title/"
+    Role:
+        -
+    Examples:
+    - Image:
+      Background Color:
 permalink: pretty
