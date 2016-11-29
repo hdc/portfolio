@@ -36,8 +36,8 @@ defaults:
     layout: work
     permalink: "/work/:title/"
     Role:
-        -
+    - 
     Examples:
-    - Image:
-      Background Color:
+    - Image: 
+      Background Color: 
 permalink: pretty
