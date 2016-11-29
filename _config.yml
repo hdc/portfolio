@@ -29,16 +29,6 @@ defaults:
     type: pages
   values:
     layout: page
-- scope:
-      path: 'work'
-      type: 'Work'
-    values:
-      Role:
-      -
-      Work:
-      - Image:
-        Background Color:
-     Year:
-     Link:
+
 
 permalink: pretty
