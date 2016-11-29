@@ -11,12 +11,7 @@ collections:
   work:
     title: Work
     output: true
-    permalink: "/work/:title/"
-    Role:
-    - 
-    Work:
-    - Image: 
-      Background Color: 
+
 defaults:
 - scope:
     path: ''
@@ -29,6 +24,19 @@ defaults:
     type: pages
   values:
     layout: page
+
+- scope:
+    path: 'work'
+    type: work
+  values:
+    permalink: "/work/:title/"
+    Role:
+    -
+    Work:
+    - Image:
+      Background Color:
+    Year:
+    Link:
 
 
 permalink: pretty
