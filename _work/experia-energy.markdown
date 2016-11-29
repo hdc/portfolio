@@ -10,5 +10,7 @@ role:
 examples:
 - image: "/uploads/phone.png"
   background-color: "#B0BEC5"
+- image: "/uploads/package1.png"
+  background-color: "#efefef"
 ---
 
