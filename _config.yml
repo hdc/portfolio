@@ -16,7 +16,9 @@ collections:
     - 
     Examples:
     - Image: 
-      Background Color: 
+      Background Color:
+    Year:
+    Link:
 defaults:
 - scope:
     path: ''
@@ -36,8 +38,10 @@ defaults:
     layout: work
     permalink: "/work/:title/"
     Role:
-        -
+    -
     Examples:
     - Image:
       Background Color:
+    Year:
+    Link:
 permalink: pretty
