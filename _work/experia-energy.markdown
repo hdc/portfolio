@@ -1,14 +1,16 @@
 ---
 title: Experia® Energy
 date: 2016-11-29 13:54:00 -05:00
-Year: 2016
-Link: https://www.thorlo.com/experia-energy
-Role:
+year: 2016
+link: https://www.thorlo.com/experia-energy
+role:
 - Design
 - Development
 - Identity
-Examples:
-- Image: "/uploads/phone.png"
-  Background Color: "#B0BEC5"
+examples:
+- image: "/uploads/phone.png"
+  background-color: "#B0BEC5"
+- image: "/uploads/package1.png"
+  background-color: "#efefef"
 ---
 

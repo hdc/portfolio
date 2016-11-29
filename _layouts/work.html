@@ -1,0 +1,15 @@
+{% for work in site.work %}
+	{{ work.title }}
+	{{ work.year }}
+<ul>
+	{% for role in work.role %}
+		<li>{{ role }}</li>
+	{% endfor %}
+</ul>
+
+{% for examples in work.examples %}
+	<div style="background-color:{{ examples.background-color}};">
+		<img src="{{ examples.image }}" alt=""/>
+	</div>
+{% endfor %}
+{% endfor %}
