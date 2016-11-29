@@ -31,7 +31,7 @@ defaults:
     layout: page
 - scope:
       path: 'work'
-      type: "Work"
+      type: 'Work'
     values:
       Role:
       -
