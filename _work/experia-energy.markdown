@@ -10,5 +10,7 @@ Role:
 Examples:
 - Image: "/uploads/phone.png"
   Background Color: "#B0BEC5"
+- Image: 
+  Background Color: 
 ---
 
