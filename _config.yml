@@ -35,11 +35,11 @@ defaults:
   values:
     layout: work
     permalink: "/work/:title/"
-    year:
-    link:
+    year: 
+    link: 
     role:
     - 
     examples:
-    - image:
-      background-color:
+    - image: 
+      background-color: 
 permalink: pretty
