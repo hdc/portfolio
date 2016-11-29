@@ -24,7 +24,7 @@ defaults:
   values:
     layout: page
 - scope:
-    path: "work"
+    path: work
     type: work
   values:
     permalink: "/work/:title/"
