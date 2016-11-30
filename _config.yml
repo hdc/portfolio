@@ -41,7 +41,7 @@ defaults:
     role:
     - 
     examples:
-    - image:
-      caption:
+    - image: 
+      caption: 
       background-color: 
 permalink: pretty
