@@ -9,8 +9,7 @@ role:
 - Identity
 examples:
 - image: "/uploads/phone.png"
+  caption: Mobile Responsive layout
   background-color: "#B0BEC5"
-- image: "/uploads/package1.png"
-  background-color: "#efefef"
 ---
 
