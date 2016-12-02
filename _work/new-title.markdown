@@ -6,5 +6,6 @@ examples:
 - image:
     image: "/uploads/energy-mobile.jpg"
     is-half: true
+  is-featured: true
 ---
 
