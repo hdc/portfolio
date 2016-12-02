@@ -36,16 +36,15 @@ defaults:
   values:
     layout: work
     permalink: "/work/:title/"
-    year:
+    year: 
     link: 
     role:
     - 
     examples:
     - image: 
       caption: 
-      background-color:
+      background-color: 
 permalink: pretty
-
 sass:
   sass_dir: assets/styles/
   style: compressed
