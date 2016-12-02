@@ -15,22 +15,14 @@
 <div class="sidebar-wrapper">
 	<div class="about-me">
 		<img class="logo" src="../assets/img/logo.png" height="38" width="210"/>
-		<h1 class="me">{{ page.headline}}</h1>
+		<h1 class="me">{{ page.headline }}</h1>
 		<p class="me-copy">{{ page.content }}</p>
 		<a href="" class="contact-me">Say Hello!</a>
 	</div>
 </div>
 
 <div class="content-wrapper">
-	<div class="examples -full">
-		<img src="http://placehold.it/1400x600"/>
-	</div>
-	<div class="examples -half">
-		<img src="http://placehold.it/700x700"/>
-	</div>
-	<div class="examples -half">
-		<img src="http://placehold.it/700x700"/>
-	</div>
+	{{ content }}
 </div>
 
 
