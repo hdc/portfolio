@@ -5,6 +5,6 @@ year: 2016
 examples:
 - image:
     image: "/uploads/energy-mobile.jpg"
-    is-half: false
+    is-half: true
 ---
 
