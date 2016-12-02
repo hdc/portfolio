@@ -8,6 +8,7 @@ role:
 - Development
 - CMS Integration
 - Brand Identity
+- Menu Design
 examples:
 - image:
     image: "/uploads/energy-mobile.jpg"
