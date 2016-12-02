@@ -45,3 +45,7 @@ defaults:
       caption: 
       background-color: 
 permalink: pretty
+
+sass:
+  sass_dir: assets/styles/
+  style: compressed
