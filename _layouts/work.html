@@ -14,11 +14,11 @@ layout: page
 {% for examples in work.examples %}
 	{% if examples.image.is-full %}
 	<div class="examples -full">
-		<img src="{{ examples.image }}" alt="{{ examples.caption }}"/>
+		<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
 	</div>
 	{% else %}
 	<div class="examples -half">
-		<img src="{{ examples.image }}" alt="{{ examples.caption }}"/>
+		<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
 	</div>
 	{% endif %}
 {% endfor %}
