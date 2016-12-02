@@ -57,6 +57,6 @@ sass:
   sass_dir: assets/styles/
   style: compressed
 about-headline: A designer and web builder in the Charlotte area.
-site-logo: "/assets/logo.png"
+site-logo: "/uploads/logo.png"
 about-headline: I'm a designer and web builder in the Charlotte area.
-intro-text: I'm currently the Senior Designer for Thorlos.
+intro-text: Currently I'm the Senior Designer for Thorlos. Working alongside maketing, sales and engineering

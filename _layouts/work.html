@@ -1,15 +1,24 @@
 ---
 layout: default
 ---
-
 {% for work in site.work %}
-	{{ work.title }}
-	{{ work.year }}
-<ul>
-	{% for role in work.role %}
-		<li>{{ role }}</li>
-	{% endfor %}
-</ul>
+<div class="work-head">
+	<div class="work-block">
+		<h1 class="work-title">{{ work.title }}</h1>
+		<p class="work-info">
+			<span class="info-name">Year:</span>
+			<span class="info-content">{{ work.year }}</span>
+		</p>
+		<p class="work-info">
+			<span class="info-name">Role:</span>
+			<span class="info-content -list">{% for role in work.role %}{{ role }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+		</p>
+		<p class="work-info">
+			<span class="info-name">Link:</span>
+			<span class="info-content"><a href="{{ work.link }}" target="_blank">{{ work.link | remove: "https://www." }}</a></span>
+		</p>
+	</div>
+</div>
 
 {% for examples in work.examples %}
 	{% if examples.image.is-full %}

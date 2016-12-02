@@ -13,7 +13,7 @@
 
 <div class="sidebar-wrapper">
 	<div class="about-me">
-		<img class="logo" src="{{ site.site-logo }}" height="38" width="210"/>
+		<a href="{{ site.url }}"><img class="logo" src="{{ site.site-logo }}" height="38" width="210"/></a>
 		<h1 class="me">{{ site.about-headline }}</h1>
 		<p class="me-copy">{{ site.intro-text }}</p>
 		<a href="" class="contact-me">Say Hello!</a>
@@ -25,11 +25,25 @@
 		{% for work in site.work %}
 		{% for examples in work.examples %}
 		{% if examples.is-featured %}
-		<div class="examples -full">
-			<a href="{{ work.url }}"><img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/></a>
-		</div>
+			{% if examples.image.is-full %}
+			<div class="examples -full">
+				<a href="{{ work.url }}">
+					<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
+					<div class="work-role">
+						{% for role in work.role %}{{ role }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+					</div>
+				</a>
+			</div>
+			{% else %}
+			<div class="examples -half">
+				<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
+			</div>
+			{% endif %}
 		{% endif %}
 	{% endfor %}
+	{% endfor %}
+	{% for links in site.works %}
+		{{ links.url }}
 	{% endfor %}
 	{% else %}
 		{{ content }}
