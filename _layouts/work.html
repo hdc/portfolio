@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% for work in site.work %}
+{% for work in site.work limit:1 %}
 <div class="work-head">
 	<div class="work-block">
 		<h1 class="work-title">{{ work.title }}</h1>
@@ -31,4 +31,8 @@ layout: default
 	</div>
 	{% endif %}
 {% endfor %}
+{% endfor %}
+
+{% for links in site.work %}
+<a href="{{ links.url }}">{{ links.title }}</a>
 {% endfor %}
