@@ -12,6 +12,7 @@ collections:
     title: Work
     output: true
     permalink: "/work/:title/"
+    home-image:
     role:
     - 
     examples:
@@ -36,6 +37,7 @@ defaults:
   values:
     layout: work
     permalink: "/work/:title/"
+    home-image:
     year: 
     link: 
     role:
