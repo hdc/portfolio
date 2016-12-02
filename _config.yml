@@ -11,6 +11,13 @@ collections:
   work:
     title: Work
     output: true
+    permalink: "/work/:title/"
+    role:
+    - 
+    examples:
+    - image: 
+      caption: 
+      background-color: 
 defaults:
 - scope:
     path: ''
@@ -23,4 +30,18 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: work
+    permalink: "/work/:title/"
+    year: 
+    link: 
+    role:
+    - 
+    examples:
+    - image: 
+      caption: 
+      background-color: 
 permalink: pretty
