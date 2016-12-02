@@ -56,3 +56,5 @@ permalink: pretty
 sass:
   sass_dir: assets/styles/
   style: compressed
+  about-headline: I'm a designer and web builder in the Charlotte area.
+  intro-text: I'm currently the Senior Designer for Thorlos.
