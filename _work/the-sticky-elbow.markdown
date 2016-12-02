@@ -11,7 +11,7 @@ role:
 - Menu Design
 examples:
 - image:
-    image: "/uploads/sticky-BC.jpg"
+    image: "/uploads/sticky-BC-380950.jpg"
     is-half: true
   caption: The Sticky Elbow Business Card
   is-featured: true
