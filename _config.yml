@@ -18,6 +18,7 @@ collections:
     - image: 
       caption: 
       background-color: 
+      is-featured: 
 defaults:
 - scope:
     path: ''
