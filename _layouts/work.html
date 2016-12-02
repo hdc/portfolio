@@ -12,7 +12,7 @@ layout: page
 </ul>
 
 {% for examples in work.examples %}
-	{% if example.image.is-full %}
+	{% if examples.image.is-full %}
 	<div class="examples -full">
 		<img src="{{ examples.image }}" alt="{{ examples.caption }}"/>
 	</div>
@@ -20,5 +20,6 @@ layout: page
 	<div class="examples -half">
 		<img src="{{ examples.image }}" alt="{{ examples.caption }}"/>
 	</div>
+	{% endif %}
 {% endfor %}
 {% endfor %}
