@@ -39,7 +39,7 @@
 				<a href="{{ work.url }}">
 					<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
 					<div class="work-role">
-						{% for role in work.role %}{{ role }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+						{% for role in work.role limit: 4 %}{{ role }}{% unless forloop.last %}, {% endunless %}{% endfor %}
 					</div>
 				</a>
 			</div>
