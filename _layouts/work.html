@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 {% for work in site.work %}
 	{{ work.title }}
 	{{ work.year }}
@@ -8,7 +12,7 @@
 </ul>
 
 {% for examples in work.examples %}
-	<div style="background-color:{{ examples.background-color}};">
+	<div class="examples">
 		<img src="{{ examples.image }}" alt="{{ examples.caption }}"/>
 	</div>
 {% endfor %}
