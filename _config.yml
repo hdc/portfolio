@@ -45,7 +45,10 @@ defaults:
     role:
     - 
     examples:
-    - image: 
+    - image:
+        image:
+        is-half:
+        is-full:
       caption: 
       background-color: 
       is-featured: 
