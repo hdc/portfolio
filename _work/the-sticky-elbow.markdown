@@ -11,9 +11,46 @@ role:
 - Menu Design
 examples:
 - image:
+    image: "/uploads/sticky-logo.jpg"
+    is-half: 
+    is-full: true
+  caption: The Sticky Elbow Logo
+  background-color: 
+  is-featured: 
+- image:
     image: "/uploads/sticky-BC-380950.jpg"
     is-half: true
+    is-full: 
   caption: The Sticky Elbow Business Card
+  background-color: 
   is-featured: true
+- image:
+    image: "/uploads/sticky-outside.jpg"
+    is-half: 
+    is-full: true
+  caption: Street view- Exterior view
+  background-color: 
+  is-featured: 
+- image:
+    image: "/uploads/sticky-desktop.jpg"
+    is-half: 
+    is-full: true
+  caption: Responsive Design - Laptop
+  background-color: 
+  is-featured: 
+- image:
+    image: "/uploads/sticky-mobile.jpg"
+    is-half: true
+    is-full: 
+  caption: Responsive Mobile Design
+  background-color: 
+  is-featured: 
+- image:
+    image: "/uploads/sticky-tablet.jpg"
+    is-half: true
+    is-full: 
+  caption: Responsive Tablet design
+  background-color: 
+  is-featured: 
 ---
 
