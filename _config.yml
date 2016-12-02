@@ -33,7 +33,7 @@ defaults:
     path: ''
     type: pages
   values:
-    layout: page
+    layout: default
 - scope:
     path: ''
     type: work
@@ -56,5 +56,5 @@ permalink: pretty
 sass:
   sass_dir: assets/styles/
   style: compressed
-about-headline: I'm a designer and web builder in the Charlotte area.
+about-headline: A designer and web builder in the Charlotte area.
 intro-text: I'm currently the Senior Designer for Thorlos.
