@@ -11,6 +11,7 @@ examples:
 - image: "/uploads/energy-logo.jpg"
   caption: 'Experia Energy '
   background-color: "#B0BEC5"
+  is-featured: true
 - image: "/uploads/energy-techSheet.jpg"
   caption: Experia Energy TechSheet
   background-color: 
