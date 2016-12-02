@@ -16,6 +16,7 @@ collections:
     - 
     examples:
     - image: 
+      caption: 
       background-color: 
 defaults:
 - scope:
@@ -41,5 +42,6 @@ defaults:
     - 
     examples:
     - image: 
+      caption: 
       background-color: 
 permalink: pretty
