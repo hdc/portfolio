@@ -44,8 +44,8 @@ defaults:
     examples:
     - image: 
       caption: 
-      background-color:
-      is-featured:
+      background-color: 
+      is-featured: 
 permalink: pretty
 sass:
   sass_dir: assets/styles/
