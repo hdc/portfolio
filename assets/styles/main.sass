@@ -144,9 +144,8 @@ a
 
 .page-nav
 	clear: both
-	padding: 10% 5%
-	+respond-to(md-lg)
-		margin: 10% 15% 10%
+	padding: 6% 10%
+	+clearfix()
 	&-link
 		font-size: 24px
 		line-height: 32px
@@ -154,3 +153,12 @@ a
 		color: rgba(0, 0, 0, .65)
 	&-content
 		color: darken(#ECEFF1,30%)
+
+
+	.page-nav-prev
+		width: 50%
+		float: left
+	.page-nav-next
+		width: 50%
+		float: right
+		text-align: right
