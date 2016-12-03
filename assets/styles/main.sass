@@ -1,0 +1,164 @@
+---
+---
+
+$min-width--sm: 480px
+$min-width--md: 720px
+$min-width--md-lg: 990px
+$min-width--lg: 960px
+$min-width--xl: 1200px
+
+$link: #4CAF50
+
+@import reset
+@import mixins
+
+html
+	font-family: 'Libre Franklin', sans-serif
+
+body
+	background: #ECEFF1
+
+a
+	color: $link
+	text-decoration: none
+
+.sidebar-wrapper
+	position: fixed
+	left: 0px
+	top: 0px
+	right: 552px
+	bottom: 0px
+	z-index: 1
+	width: 40%
+	height: 100%
+	border-right: 1px solid darken(#ECEFF1,10%)
+	//padding: 75px 85px 50px
+	+respond-to(md-lg)
+		position: relative
+		width: 100%
+		right: auto
+		//padding: 75px 0
+
+.logo
+	display: block
+	margin-bottom: 8%
+	opacity: .5
+
+.about-me
+	position: relative
+	margin: 25% 15% 0
+	font-weight: 400
+	color: rgba(0, 0, 0, .65)
+	+respond-to(md-lg)
+		margin: 10% 15% 10%
+
+
+.me
+	font-size: 36px
+	line-height: 42px
+
+.me-copy
+	display: block
+	width: 100%
+	margin-top: 25px
+	font-size: 18px
+	line-height: 28px
+
+.contact-me
+	padding: 15px 65px
+	background-color: $link
+	+transition(all 200ms ease)
+	font-size: 16px
+	color: #ffffff
+	text-decoration: none
+	border-radius: 3px
+	display: inline-block
+	margin-top: 8%
+	&:hover
+		background: darken(#4CAF50,10%)
+		+box-shadow(0, 16px, 32px, -6px darken(#ECEFF1,30%))
+
+
+.content-wrapper
+	position: static
+	overflow: visible
+	width: 60%
+	max-width: 1200px
+	margin-left: 40%
+	float: none
+	clear: none
+	z-index: 0
+	background: #fff
+	+respond-to(md-lg)
+		position: relative
+		width: 100%
+		margin-left: 0
+
+.examples
+	float: left
+	position: relative
+	img
+		+responsive-image
+	&.-full
+		width: 100%
+		clear: both
+	&.-half
+		width: 50%
+		+respond-to(md)
+			width: 100%
+	.work-role
+		font-size: 14px
+		line-height: 22px
+		position: absolute
+		bottom: 12px
+		left: 5%
+
+
+// Work
+//==========
+
+.work
+	&-head
+		padding: 50px
+		background: #fff
+		+respond-to(md-lg)
+			padding: 10% 15% 10%
+	&-title
+		font-size: 24px
+		line-height: 32px
+		font-weight: 400
+		margin-bottom: 14px
+
+	&-info
+		color: #607D8B
+		display: block
+		font-size: 14px
+		line-height: 22px
+		.info-name
+			display: inline-block
+		.info-content
+			display: inline-block
+			margin: 0 0 0 14px
+
+
+
+.page-nav
+	clear: both
+	padding: 6% 10%
+	+clearfix()
+	&-link
+		font-size: 24px
+		line-height: 32px
+		font-weight: 400
+		color: rgba(0, 0, 0, .65)
+	&-content
+		color: darken(#ECEFF1,30%)
+
+
+	.page-nav-prev
+		width: 50%
+		float: left
+	.page-nav-next
+		width: 50%
+		float: right
+		text-align: right

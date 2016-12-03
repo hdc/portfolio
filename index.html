@@ -1,2 +1,13 @@
-hello world
-today
+---
+layout: default
+---
+
+{% for work in site.work %}
+{% for examples in work.examples %}
+{% if examples.is-featured %}
+<div class="examples -full">
+	<a href="{{ work.url }}"><img src="{{ examples.image }}" alt="{{ examples.caption }}"/></a>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}

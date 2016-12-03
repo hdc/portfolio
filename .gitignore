@@ -4,8 +4,6 @@
 bower_components
 _site/*
 scripts/coffee/*.*
-styles/sass/*.*
-config/*.*
 Gemfile
 Guardfile
 Gemfile.lock
