@@ -25,6 +25,13 @@ examples:
   background-color: 
   is-featured: true
 - image:
+    image: "/uploads/sticky-menu.jpg"
+    is-half: true
+    is-full: 
+  caption: The Sticky Elbow Menu Design
+  background-color: 
+  is-featured: 
+- image:
     image: "/uploads/sticky-outside.jpg"
     is-half: 
     is-full: true
