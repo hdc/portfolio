@@ -16,12 +16,12 @@ collections:
     - 
     examples:
     - image:
-        image: 
-        is-half: 
-        is-full: 
+        image:
+        is-half:
+        is-full:
       caption: 
       background-color: 
-      is-featured: 
+      is-featured:
 defaults:
 - scope:
     path: ''
@@ -46,12 +46,12 @@ defaults:
     - 
     examples:
     - image:
-        image: 
-        is-half: 
-        is-full: 
+        image:
+        is-half:
+        is-full:
       caption: 
       background-color: 
-      is-featured: 
+      is-featured:
 permalink: pretty
 sass:
   sass_dir: assets/styles/
