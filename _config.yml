@@ -33,7 +33,7 @@ defaults:
     path: ''
     type: pages
   values:
-    layout: page
+    layout: default
 - scope:
     path: ''
     type: work
@@ -57,5 +57,7 @@ sass:
   sass_dir: assets/styles/
   style: compressed
 site-logo: "/uploads/logo.png"
-about-headline: I'm a designer and web builder in the Charlotte area.
-intro-text: I'm currently the Senior Designer for Thorlos.
+about-headline: Josh Hamilton is a print and digital product designer in the Charlotte
+  area.
+intro-text: Currently I'm the Senior Designer for Thorlos, a foot protection sock
+  brand. Working alongside maketing, sales, engineering and product development.

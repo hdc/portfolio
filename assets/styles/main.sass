@@ -28,15 +28,16 @@ a
 	top: 0px
 	right: 552px
 	bottom: 0px
-	z-index: 0
+	z-index: 1
 	width: 40%
 	height: 100%
-	padding: 75px 85px 50px
+	border-right: 1px solid darken(#ECEFF1,10%)
+	//padding: 75px 85px 50px
 	+respond-to(md-lg)
 		position: relative
 		width: 100%
 		right: auto
-		padding: 75px 0
+		//padding: 75px 0
 
 .logo
 	display: block
@@ -45,12 +46,11 @@ a
 
 .about-me
 	position: relative
-	width: 65%
-	margin-top: 15%
+	margin: 25% 15% 0
 	font-weight: 400
 	color: rgba(0, 0, 0, .65)
 	+respond-to(md-lg)
-		margin: 0 auto
+		margin: 10% 15% 10%
 
 
 .me
@@ -87,6 +87,8 @@ a
 	margin-left: 40%
 	float: none
 	clear: none
+	z-index: 0
+	background: #fff
 	+respond-to(md-lg)
 		position: relative
 		width: 100%
@@ -94,6 +96,7 @@ a
 
 .examples
 	float: left
+	position: relative
 	img
 		+responsive-image
 	&.-full
@@ -101,3 +104,61 @@ a
 		clear: both
 	&.-half
 		width: 50%
+		+respond-to(md)
+			width: 100%
+	.work-role
+		font-size: 14px
+		line-height: 22px
+		position: absolute
+		bottom: 12px
+		left: 5%
+
+
+// Work
+//==========
+
+.work
+	&-head
+		padding: 50px
+		background: #fff
+		+respond-to(md-lg)
+			padding: 10% 15% 10%
+	&-title
+		font-size: 24px
+		line-height: 32px
+		font-weight: 400
+		margin-bottom: 14px
+
+	&-info
+		color: #607D8B
+		display: block
+		font-size: 14px
+		line-height: 22px
+		.info-name
+			display: inline-block
+		.info-content
+			display: inline-block
+			margin: 0 0 0 14px
+
+
+
+.page-nav
+	clear: both
+	padding: 6% 10%
+	+clearfix()
+	&-link
+		font-size: 24px
+		line-height: 32px
+		font-weight: 400
+		color: rgba(0, 0, 0, .65)
+	&-content
+		color: darken(#ECEFF1,30%)
+
+
+	.page-nav-prev
+		width: 50%
+		float: left
+	.page-nav-next
+		width: 50%
+		float: right
+		text-align: right
