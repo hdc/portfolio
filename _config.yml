@@ -57,5 +57,7 @@ sass:
   sass_dir: assets/styles/
   style: compressed
 site-logo: "/uploads/logo.png"
-about-headline: Josh Hamilton is a print and digital product designer in the Charlotte area.
-intro-text: Currently I'm the Senior Designer for Thorlos, a foot protection sock brand. Working alongside maketing, sales, engineering and product development.
+about-headline: Josh Hamilton is a print and digital product designer in the Charlotte
+  area.
+intro-text: Currently I'm the Senior Designer for Thorlos, a foot protection sock
+  brand. Working alongside maketing, sales, engineering and product development.
