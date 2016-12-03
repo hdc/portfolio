@@ -1,0 +1,103 @@
+---
+---
+
+$min-width--sm: 480px
+$min-width--md: 720px
+$min-width--md-lg: 990px
+$min-width--lg: 960px
+$min-width--xl: 1200px
+
+$link: #4CAF50
+
+@import reset
+@import mixins
+
+html
+	font-family: 'Libre Franklin', sans-serif
+
+body
+	background: #ECEFF1
+
+a
+	color: $link
+	text-decoration: none
+
+.sidebar-wrapper
+	position: fixed
+	left: 0px
+	top: 0px
+	right: 552px
+	bottom: 0px
+	z-index: 0
+	width: 40%
+	height: 100%
+	padding: 75px 85px 50px
+	+respond-to(md-lg)
+		position: relative
+		width: 100%
+		right: auto
+		padding: 75px 0
+
+.logo
+	display: block
+	margin-bottom: 8%
+	opacity: .5
+
+.about-me
+	position: relative
+	width: 65%
+	margin-top: 15%
+	font-weight: 400
+	color: rgba(0, 0, 0, .65)
+	+respond-to(md-lg)
+		margin: 0 auto
+
+
+.me
+	font-size: 36px
+	line-height: 42px
+
+.me-copy
+	display: block
+	width: 100%
+	margin-top: 25px
+	font-size: 18px
+	line-height: 28px
+
+.contact-me
+	padding: 15px 65px
+	background-color: $link
+	+transition(all 200ms ease)
+	font-size: 16px
+	color: #ffffff
+	text-decoration: none
+	border-radius: 3px
+	display: inline-block
+	margin-top: 8%
+	&:hover
+		background: darken(#4CAF50,10%)
+		+box-shadow(0, 16px, 32px, -6px darken(#ECEFF1,30%))
+
+
+.content-wrapper
+	position: static
+	overflow: visible
+	width: 60%
+	max-width: 1200px
+	margin-left: 40%
+	float: none
+	clear: none
+	+respond-to(md-lg)
+		position: relative
+		width: 100%
+		margin-left: 0
+
+.examples
+	float: left
+	img
+		+responsive-image
+	&.-full
+		width: 100%
+		clear: both
+	&.-half
+		width: 50%

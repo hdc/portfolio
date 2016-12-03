@@ -8,29 +8,61 @@ role:
 - Development
 - Identity
 examples:
-- image: "/uploads/energy-logo.jpg"
-  caption: 'Experia Energy '
-  background-color: "#B0BEC5"
-- image: "/uploads/energy-techSheet.jpg"
-  caption: Experia Energy TechSheet
+- image:
+    image: "/uploads/energy-logo.jpg"
+    is-half: 
+    is-full: true
+  caption: Experia Energy Logo
   background-color: 
-- image: "/uploads/energy-tablet.jpg"
-  caption: Responsive tablet view of landing page
+  is-featured: true
+- image:
+    image: "/uploads/energy-techSheet.jpg"
+    is-half: 
+    is-full: true
+  caption: Energy Tech Sheet
   background-color: 
-- image: "/uploads/energy-mobile.jpg"
-  caption: Mobile responsive view of landing page
+  is-featured: 
+- image:
+    image: "/uploads/energy-tablet.jpg"
+    is-half: true
+    is-full: 
+  caption: Tablet Responsive layout
   background-color: 
-- image: "/uploads/energy-laptop.jpg"
-  caption: laptop view of landing page
+  is-featured: 
+- image:
+    image: "/uploads/energy-mobile.jpg"
+    is-half: true
+    is-full: 
+  caption: Mobile responsive layout
   background-color: 
-- image: "/uploads/energy-package-A.jpg"
-  caption: Package design and development top view
+  is-featured: 
+- image:
+    image: "/uploads/energy-laptop.jpg"
+    is-half: 
+    is-full: true
+  caption: Landing page design and development
   background-color: 
-- image: "/uploads/energy-package-B.jpg"
-  caption: Package design close up
+  is-featured: 
+- image:
+    image: "/uploads/energy-package-A.jpg"
+    is-half: true
+    is-full: 
+  caption: 'Package design '
   background-color: 
-- image: "/uploads/energy-banner.jpg"
-  caption: Banner display for tradeshows
+  is-featured: 
+- image:
+    image: "/uploads/energy-package-B.jpg"
+    is-half: true
+    is-full: 
+  caption: Package Design
   background-color: 
+  is-featured: 
+- image:
+    image: "/uploads/energy-banner.jpg"
+    is-half: true
+    is-full: 
+  caption: Banner Design for Tradeshow
+  background-color: 
+  is-featured: 
 ---
 

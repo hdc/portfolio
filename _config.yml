@@ -15,9 +15,13 @@ collections:
     role:
     - 
     examples:
-    - image: 
+    - image:
+        image: 
+        is-half: 
+        is-full: 
       caption: 
       background-color: 
+      is-featured: 
 defaults:
 - scope:
     path: ''
@@ -41,7 +45,17 @@ defaults:
     role:
     - 
     examples:
-    - image: 
+    - image:
+        image: 
+        is-half: 
+        is-full: 
       caption: 
       background-color: 
+      is-featured: 
 permalink: pretty
+sass:
+  sass_dir: assets/styles/
+  style: compressed
+site-logo: "/uploads/logo.png"
+about-headline: I'm a designer and web builder in the Charlotte area.
+intro-text: I'm currently the Senior Designer for Thorlos.
