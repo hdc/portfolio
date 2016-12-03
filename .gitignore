@@ -2,6 +2,7 @@
 .sass-cache
 .git
 bower_components
+_site/*
 scripts/coffee/*.*
 Gemfile
 Guardfile
