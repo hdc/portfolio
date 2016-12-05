@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>{{page.title}}{% if page.url != '/' %} - {{ site.title }}{% endif %}</title>
+	<title>{% if page.url != '/' %}{{ page.title }} - {% endif %}{{site.title}}</title>
 	<link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
