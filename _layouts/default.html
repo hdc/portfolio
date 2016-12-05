@@ -24,42 +24,36 @@
 		<a href="mailto:hello@joshhamilton.me" class="contact-me">Say Hello!</a>
 	</div>
 </div>
-
 <div class="content-wrapper">
 	{% if page.url == '/' %}
 	{% assign sorted_work = site.work | sort:"position" %}
-		{% for work in sorted_work %}
-		{% for examples in work.examples %}
-		{% if examples.is-featured %}
-			{% if examples.image.is-full %}
-			<div class="examples -full">
-				<a href="{{ work.url }}">
-					<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
-					<div class="work-role">
-						{% for role in work.role %}{{ role }}{% unless forloop.last %}, {% endunless %}{% endfor %}
-					</div>
-				</a>
-			</div>
-			{% else %}
-			<div class="examples -half">
-				<a href="{{ work.url }}">
-					<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
-					<div class="work-role">
-						<p>{% for role in work.role limit: 4 %}{{ role }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
-					</div>
-				</a>
-			</div>
-			{% endif %}
-		{% endif %}
+	{% for work in sorted_work %}
+	{% for examples in work.examples %}
+	{% if examples.is-featured %}
+	{% if examples.image.is-full %}
+	<div class="examples -full">
+		<a href="{{ work.url }}">
+			<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
+		</a>
+	</div>
+	{% else %}
+	<div class="examples -half">
+		<a href="{{ work.url }}">
+			<img src="{{ examples.image.image }}" alt="{{ examples.caption }}"/>
+		</a>
+	</div>
+	{% endif %}
+	{% endif %}
 	{% endfor %}
 	{% endfor %}
 	{% else %}
-		{{ content }}
+	{{ content }}
 	{% endif %}
-
 	<footer class="footer">
-		<p>&copy;{{ 'now' | date: "%Y" }} Josh Hamilton. Proudly powered by <a href="https://www.siteleaf.com/" target="_blank">Siteleaf</a> and hosted on
-			<a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+		<div class="footer-inner">
+			<p>&copy;{{ 'now' | date: "%Y" }} Josh Hamilton. Proudly powered by <a href="https://www.siteleaf.com/" target="_blank">Siteleaf</a> and hosted on
+				<a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+		</div>
 	</footer>
 </div>
 
