@@ -1,7 +1,7 @@
 ---
 title: Email Outreach
 date: 2016-12-04 21:02:00 -05:00
-position: 4
+position: 3
 year: 2016
 role:
 - Design
