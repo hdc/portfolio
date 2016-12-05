@@ -3,6 +3,7 @@ title: Logos
 date: 2016-12-04 19:43:00 -05:00
 tags:
 - Design
+position: 1
 year: Varied
 role:
 - Concept
