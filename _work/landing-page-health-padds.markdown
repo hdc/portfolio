@@ -2,7 +2,6 @@
 title: Landing Page - Health Padds
 date: 2016-12-04 19:49:00 -05:00
 year: 2016
-link: In development
 role:
 - Design
 - Development
