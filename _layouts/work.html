@@ -6,16 +6,18 @@ layout: default
 	<div class="work-block">
 		<h1 class="work-title">{{ page.title }}</h1>
 		<p class="work-info">
-			<span class="info-name">Year:</span>
+			{% if page.year %}<span class="info-name">Year:</span>
 			<span class="info-content">{{ page.year }}</span>
+			{% endif %}
 		</p>
 		<p class="work-info">
 			<span class="info-name">Role:</span>
 			<span class="info-content -list">{% for role in page.role %}{{ role }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
 		</p>
 		<p class="work-info">
-			<span class="info-name">Link:</span>
+			{% if page.link%}<span class="info-name">Link:</span>
 			<span class="info-content"><a href="{{ page.link }}" target="_blank">{{ page.link | remove: "https://www." }}</a></span>
+			{% endif %}
 		</p>
 	</div>
 </div>
@@ -36,16 +38,18 @@ layout: default
 
 		{% if page.previous.url %}
 		<div class="page-nav-prev">
-			<a class="page-nav-link" href="{{page.previous.url}}">&laquo; Previous Project</a>
-			<p class="page-nav-content">{{page.previous.title}}</p>
+			<a class="page-nav-link" href="{{page.previous.url}}">&laquo; Previous Project
+			<span class="page-nav-content">{{page.previous.title}}</span>
+			</a>
 		</div>
 		{% endif %}
 
 
 		{% if page.next.url %}
 		<div class="page-nav-next">
-			<a class="page-nav-link" href="{{page.next.url}}">Next Project &raquo;</a>
-			<p class="page-nav-content">{{ page.next.title }}</p>
+			<a class="page-nav-link" href="{{page.next.url}}">Next Project &raquo;
+			<span class="page-nav-content">{{ page.next.title }}</span>
+			</a>
 		</div>
 		{% endif %}
 </div>
