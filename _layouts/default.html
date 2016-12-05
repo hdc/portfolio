@@ -27,7 +27,8 @@
 
 <div class="content-wrapper">
 	{% if page.url == '/' %}
-		{% for work in site.work %}
+	{% assign sorted_work = site.work | sort:"position" %}
+		{% for work in sorted_work %}
 		{% for examples in work.examples %}
 		{% if examples.is-featured %}
 			{% if examples.image.is-full %}
