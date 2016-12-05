@@ -36,16 +36,18 @@ layout: default
 
 		{% if page.previous.url %}
 		<div class="page-nav-prev">
-			<a class="page-nav-link" href="{{page.previous.url}}">&laquo; Previous Project</a>
-			<p class="page-nav-content">{{page.previous.title}}</p>
+			<a class="page-nav-link" href="{{page.previous.url}}">&laquo; Previous Project
+			<span class="page-nav-content">{{page.previous.title}}</span>
+			</a>
 		</div>
 		{% endif %}
 
 
 		{% if page.next.url %}
 		<div class="page-nav-next">
-			<a class="page-nav-link" href="{{page.next.url}}">Next Project &raquo;</a>
-			<p class="page-nav-content">{{ page.next.title }}</p>
+			<a class="page-nav-link" href="{{page.next.url}}">Next Project &raquo;
+			<span class="page-nav-content">{{ page.next.title }}</span>
+			</a>
 		</div>
 		{% endif %}
 </div>

@@ -18,9 +18,8 @@
 	<div class="about-me">
 		<a href="{{ site.url }}"><img class="logo" src="{{ site.site-logo }}" height="38" width="210"/></a>
 		<h1 class="me">{{ site.about-headline }}</h1>
-		<p class="me-copy">{{ site.intro-text }}</p>
-		<div class="about-links">
-			<a href="https://www.dropbox.com/s/yq7k7djo0glztrq/JoshHamilton-resume.pdf?dl=0" class="link" target="_blank">Resume</a>
+		<div class="me-copy">
+			{{ site.intro-text | markdownify }}
 		</div>
 		<a href="mailto:hello@joshhamilton.me" class="contact-me">Say Hello!</a>
 	</div>
