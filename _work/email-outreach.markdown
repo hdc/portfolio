@@ -8,7 +8,7 @@ role:
 - MailChimp Integration
 examples:
 - image:
-    image: "/uploads/email.jpg"
+    image: "/uploads/email-daf61a.jpg"
     is-full: true
   caption: Fall Promotional Email Outreach
   is-featured: true
