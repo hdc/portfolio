@@ -147,12 +147,20 @@ a
 .page-nav
 	clear: both
 	padding: 6% 10%
+	border-top: 1px solid darken(#ECEFF1,10%)
 	+clearfix()
+	+respond-to(sm)
+		padding: 6%
 	&-link
-		font-size: 24px
-		line-height: 32px
+		display: block
+		margin-bottom: 5px
+		font-size: 22px
+		line-height: 30px
 		font-weight: 400
 		color: rgba(0, 0, 0, .65)
+		+respond-to(sm)
+			font-size: 18px
+			line-height: 26px
 	&-content
 		color: darken(#ECEFF1,35%)
 
@@ -165,3 +173,13 @@ a
 		width: 50%
 		float: right
 		text-align: right
+
+
+// Footer
+
+.footer
+	text-align: center
+	clear: both
+	padding: 50px
+	background-color: darken(#ECEFF1,65%)
+	color: darken(#ECEFF1,45%)
