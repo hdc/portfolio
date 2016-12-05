@@ -14,14 +14,14 @@ examples:
     is-full: true
   caption: Love Is Blinds - Budget Blinds
   background-color: 
-  is-featured: true
+  is-featured: false
 - image:
     image: "/uploads/BeyondPink.jpg"
     is-half: true
     is-full: 
   caption: Beyond Pink Ribbons
   background-color: 
-  is-featured: 
+  is-featured: true
 - image:
     image: "/uploads/BWrite.jpg"
     is-half: true
