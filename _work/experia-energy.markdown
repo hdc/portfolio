@@ -1,6 +1,7 @@
 ---
 title: Experia Energy
 date: 2016-11-29 13:54:00 -05:00
+position: 0
 year: 2016
 link: https://www.thorlo.com/experia-energy
 role:
