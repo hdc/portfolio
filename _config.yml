@@ -22,6 +22,9 @@ collections:
       caption: 
       background-color: 
       is-featured: 
+  test:
+    title: test
+    output: true
 defaults:
 - scope:
     path: ''
